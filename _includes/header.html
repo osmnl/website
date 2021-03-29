@@ -7,8 +7,6 @@
 
 {% if html_page.name == page.name and html_page.lang == 'en' %}
 {% assign item-en = html_page %}
-{% elsif html_page.name == page.name and html_page.lang == 'fr' %}
-{% assign item-fr = html_page %}
 {% elsif html_page.name == page.name and html_page.lang == 'nl' %}
 {% assign item-nl = html_page %}
 {% endif %}
@@ -22,8 +20,6 @@
 
 {% if post_url == url and post.lang == 'en' %}
 {% assign item-en = post %}
-{% elsif post_url == url and post.lang == 'fr' %}
-{% assign item-fr = post %}
 {% elsif post_url == url and post.lang == 'nl' %}
 {% assign item-nl = post %}
 {% endif %}
@@ -37,8 +33,6 @@
 
 {% if event_url == url2 and event.lang == 'en' %}
 {% assign item-en = event %}
-{% elsif event_url == url2 and event.lang == 'fr' %}
-{% assign item-fr = event %}
 {% elsif event_url == url2 and event.lang == 'nl' %}
 {% assign item-nl = event %}
 {% endif %}
@@ -53,12 +47,6 @@
             <a href="{{ item-en.url | relative_url }}">EN</a>
             {% else %}
             <span class="text-muted">EN</span>
-            {% endif %}
-            &bull;
-            {% if item-fr != nil %}
-            <a href="{{ item-fr.url | relative_url }}">FR</a>
-            {% else %}
-            <span class="text-muted">FR</span>
             {% endif %}
             &bull;
             {% if item-nl != nil %}
