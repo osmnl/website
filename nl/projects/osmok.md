@@ -1,7 +1,7 @@
 ---
 title: OSM OK Nederland
 featured: screenshot-osmoknl.png
-layout: post
+layout: project
 author: OpenStreetMap Netherlands
 lang: nl
 ---
