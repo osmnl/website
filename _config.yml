@@ -18,7 +18,7 @@ social:
     - https://github.com/osmnl
 
 url: https://osmnl.github.io/
-baseurl: ""
+baseurl: "website"
 
 exclude:
   - INSTALL.md
