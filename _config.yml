@@ -17,8 +17,8 @@ social:
   links:
     - https://github.com/osmnl
 
-url: https://osmnl.github.io/
-baseurl: "website"
+url: https://openstreetmap.nl
+baseurl: ""
 
 exclude:
   - INSTALL.md
