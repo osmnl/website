@@ -4,7 +4,7 @@
 <script>
     (function () {
         // filter: {in: "Belgium"}, temporarily removed
-        const widget = new OSMCal.WidgetList(document.getElementById("osmcal"), { locales: "{{ include.locales }}", hideCancelled: true });
+        const widget = new OSMCal.WidgetList(document.getElementById("osmcal"), { filter: {in: "Netherlands"}, locales: "{{ include.locales }}", hideCancelled: true });
         widget.display();
     })();
 </script>
