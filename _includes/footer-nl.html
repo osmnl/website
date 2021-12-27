@@ -19,7 +19,7 @@
 
         <ul class="default">
             {% for partner in site.data.partners %}
-            <li><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a></li>
+            <li><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a> {{ partner.details }}</li>
             {% endfor %}
         </ul>
     </div>

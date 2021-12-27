@@ -10,8 +10,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-twitter:
-  username: osm_be
+#twitter:
+#  username: osm_be
 social:
   name: OpenStreetMap Nederland
   links:

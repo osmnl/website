@@ -13,9 +13,6 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    {% if page.layout == "event" %}
-    <link rel="stylesheet" href="{{ 'assets/event.css' | relative_url }}">
-    {% endif %}
     <link rel="stylesheet" href="{{ 'assets/style.css' | relative_url }}">
     {% if page.highlight == true %}
     <link rel="stylesheet" href="{{ 'assets/highlight.css' | relative_url }}">
@@ -42,7 +39,7 @@
 
             <div class="copyright">
                 Give feedback on <a href="https://github.com/osmnl/website/issues/" target="_blank">GitHub</a>,
-                All this is <a href="https://github.com/osmnl/website/blob/master/LICENSE.txt" target="_blank">CC-BY
+                This site is based on osm.be, which is <a href="https://github.com/osmbe/website/blob/master/LICENSE.txt" target="_blank">CC-BY
                     3.0</a> licensed.
             </div>
         </div>
@@ -51,9 +48,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    {% if page.layout == "event" %}
-    <script src="{{ 'assets/event.js' | relative_url }}"></script>
-    {% endif %}
 
     {% include fathom-analytics.html %}
 </body>
