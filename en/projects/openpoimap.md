@@ -11,4 +11,4 @@ There is a choice of a large part of the map features defined in the [wiki](http
 
 By clicking on a point, tags become visible, including references to the wiki.
 
-The tool is available on [openpoimap.nl](http://openpoimap.nl)
+The tool is available on [openpoimap.org](https://openpoimap.org)
